@@ -1,0 +1,1034 @@
+body{
+    margin: 0;
+    font-family: Nunito Sans;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button{
+    font-family: 'Nunito Sans';
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.1);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo{
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.header{
+    background-color: #131313;
+    font-size: 11px;
+}
+
+.header-content{
+    display:flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation{
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item{
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color:white;
+}
+
+.number{
+    color: #E3B873;
+}
+
+.hero{
+    background-image: url('backgroung-image1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title span{
+    color: #E3B873;
+}
+
+.hero-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.button-transparent{
+    background: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    padding: 13px 33px;
+    border-width: thin;
+    margin-left: 20px;
+}
+
+.projects {
+    background-color: #131313;
+    height: 1074px;
+}
+
+.projects-container{
+    padding-top: 107px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.project-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.projects-subtitle{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.project-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.chair-image{
+    height: 482px;
+    width: 679px;
+}
+
+.projects-content1{
+    padding-top: 70px;
+}
+
+.project-text-container{
+    display: inline-block;
+    margin-right: 34px;
+}
+ 
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.projects-info{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 7px;
+}
+
+.hover:hover{
+    color: #E3B873;
+    border-bottom: 1px solid #e3b873;
+}
+
+.img-content1{
+    margin-top: 81px;
+}
+
+.img-content2{
+    padding-top: 92px;
+    text-align: center;
+}
+
+.measurement{
+    height: 750px;
+}
+
+.measurement-image{
+    display: flex;
+    justify-content: center;
+    margin-top: -208px;
+    position:relative;
+    align-items: center;
+}
+
+.measurement-overlay{
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    height: 434px;
+    width: 817px;
+    z-index: 1;
+    position: absolute;
+}
+
+.play-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    z-index: 2;
+    position: absolute;
+    background-color: #E3B873;
+    border-radius: 50%;
+}
+
+.measurement-info{
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.measurement-text{
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+
+.measurement-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+
+.button-input{
+    padding: 20px 75px;
+
+}
+
+.input-text{
+    padding-right: 50px;
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.measurement-chekbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.measurement-chekbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.measurement-chekbox+label::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    margin-right: 12px;
+    border: 1px solid #adb5bd;
+    border-radius: 1px;
+}
+
+.measurement-chekbox:checked+label::before {
+    background: #E3B873;
+    background-image: url('cb.png');  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 55% 55%;
+}
+
+.cb-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #181818;
+}
+
+.cb-container{
+    margin:20px auto;
+    text-align: center;
+}
+
+.logo-name{
+    margin-top: 50px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-cotainer{
+    max-width: 95%;
+    margin:-126px auto;
+}
+
+.price-info{
+    Width: 330px;
+    Height: 286px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.price-list{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.price-title{
+    margin: 25px 68px 13px 34px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.registration{
+    height: 920px;
+    background-image: url('registration.png');
+    background-repeat: no-repeat;
+}
+
+.registration-container{
+    margin-top: 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-input{
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+}
+
+.registration-info{
+    display: flex;
+}
+
+.mark-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0.5em;
+}
+
+.mark{
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.mark-text{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.registration-text{
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.input-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.input-subtitle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin:auto;
+    margin-top:40px;
+}
+
+.registration-input-text::placeholder{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.registration-input-text{
+    padding-bottom: 5px;
+    width:100%;
+    background-color: #131313;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+#reg-cb{
+    color:#FFFFFF;
+}
+
+.cb2-container{
+    width: 80%;
+    margin:15px auto;
+}
+
+.registration-button{
+    display:flex;
+    flex-direction: row-reverse;
+    width:80%;  
+    margin: auto;
+}
+
+.pig{
+    margin: 100px auto 0 auto;
+    width: 80%;
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.team{
+    background-image: url('teambg.jpg');
+    height: 864px;
+    background-size: cover;
+}
+
+.team-overlay{
+    height: 864px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.team-container{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+.team-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 130px;
+}
+
+.team-list-item{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.team-subtitle{
+    max-width: 53%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.team-list{
+    list-style: none;
+    padding: 0;
+}
+
+.team-gallery{
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-item{
+    padding: 20px;
+}
+
+.gallery-item1{
+    margin-top: -60px;
+}
+
+.gallery-item2{
+    margin-top: -150px;
+}
+
+.reviews{
+    height: 1100px;
+    background-image: url('revbg.jpg');
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.reviews-container{
+    padding-top: 90px;
+}
+
+.reviews-logo{
+    text-align: center;
+}
+
+.reviews-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.reviews-subtitle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.reviews-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-container{
+    display: flex;
+}
+
+.reviews-name{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 10px;
+}
+
+.reviews-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.reviews-info-item{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+}
+
+.review-date-container{
+    display: flex;
+    margin-bottom: -30px;
+    margin-left: -22px;
+}
+
+.review-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E3B873;
+    margin-left: 2px;
+    padding: 10px;
+}
+
+.review-date-text{
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact{
+    height: 1230px;
+    position: relative;
+}
+
+.contact-overlay{
+    content: '';
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.contact-overlay2{
+    height: 1000px;
+    width: 100%;
+    background-image:url('contactbg.jpg');
+    background-size: cover;
+    position: absolute;
+    z-index: -999   ;
+    top: 230px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.contact-panel{
+    position: relative;
+    z-index: 1;
+    width: 880px;
+    height: 480px;
+    background-color: #131313;
+    margin: auto;
+    margin-top: -250px;
+    padding: 30px;
+}
+
+.contact-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact-input-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.contact-subtitle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-item{
+    width: 231px;
+    margin-right: 25px;
+}
+
+.contact-item2{
+    width: 516px;
+}
+
+.cb3-container{
+    text-align: center;
+}
+
+.contact-button{
+    padding: 35px;
+    text-align: center;
+}
+
+.contact-container{
+    position: relative;
+    z-index: 1;
+}
+
+.contact-adress{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.contact-mark-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-mark{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #E3B873;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-map{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.price-section{
+    padding-top: 100px;
+    height: 700px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 90%;
+        margin: auto;
+    }
+    nav, .header-button{
+        display: none;
+    }
+    .title{
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+    .hero-text{
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+    .hero-button, .button-transparent{
+        display: block;
+        margin: 30px auto 0;
+        width: 100%;
+    }
+    .hero{
+        padding-top: 85px;
+        height: 475px;
+    }
+    .projects{
+        height: 1000px;
+    }
+    .projects-container{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .projects-title{
+        text-align: center;
+    }
+    .project-text-container{
+        margin-right: 20px;
+        margin-top: 300px;
+    }
+    .projects-subtitle{
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+    .project-text{
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+    .img-content1,.link-container{
+        display: none;
+    }
+    .projects-content1{
+        padding-top: 10px;
+    }
+    .projects-content3{
+        display: flex;
+       justify-content: center;
+    }
+    .chair-image{
+        width: 340px;
+        height: 240px;
+        margin-top: -420px;
+        left: 15px;
+    }
+    .img-content2{
+        padding: 30px 0 30px;
+    }
+    .measurement-preview, .measurement-overlay{
+        width: 340px;
+        height: 207px;
+    }
+    .measurement{
+        background-color: #131313;
+    }
+    .measurement-text{
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .measurement-input{
+        flex-direction: column;
+        margin: 0;
+    }
+    .input-text{
+        color: rgba(255, 255, 255, 0.5);
+        margin: 40px 0px;
+        width: 100%;
+    }
+    .input{
+        background-color: #131313;
+        width: 100%;
+    }
+    .cb-container{
+        margin:-110px auto;
+    }
+    .button-input{
+        margin-top: 45px;
+    }
+    .cb-text{
+        color: #FFFFFF;
+    }
+    .play-button{
+        width: 47px;
+        height: 47px;
+    }
+    .price-section{
+        height: 1900px;
+    }
+    .jpg-container{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+    }
+    .price-img{
+        width: 340px;
+        height: 484px;
+        margin-bottom: 40px;
+    }
+    .info-cotainer{
+        position: relative;
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -1400px;
+        height: 1500px;
+        justify-content: space-around;
+    }
+    .registration{
+        display: none;
+    }
+    .team-overlay, .team-subtitle, .team-list, .gallery-item2, #im-item-d{
+        display: none;
+    }
+    .team{
+        background-image: none;
+        height: auto;
+    }
+    .team-container{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content:flex-start;
+    }
+    .img-item{
+        padding: 0%;
+        height: 310px;
+        width: 270px;
+        margin-bottom: -150px;
+        z-index: 10;
+    }
+    .team-title{
+        margin: 0;
+    }
+    .gallery-item1{
+        margin-top: 20px;
+    }
+    .reviews{
+        display: none;
+    }
+    .contact-overlay, .contact-overlay2{
+        display: none;
+    }
+    .contact{
+        background-color: #131313;
+    }
+    .contact-panel{
+        margin-top: 0;  
+        padding-top: 170px;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .contact-input-container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .contact-item, .contact-item2{
+        width: auto;
+        margin:50px 0 0 0 ;
+    }
+    .cb3-container{
+        padding-top: 20px;
+        text-align: left;
+    }
+    .contact-button{
+        text-align: left;
+        padding:60px 0 40px;
+    }
+    .button-stretched{
+        width: 100%;
+    }
+    .contact-map-item{
+        width: 320px;
+        height: 235px;
+    }
+    .contact-map{
+        padding-top: 20px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-adress{
+        order: 2;
+    }
+    .contact-mark-container{
+        order: 3;
+    }
+    footer{
+        display: none;
+    }
+}
